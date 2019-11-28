@@ -1,3 +1,5 @@
+const assert = require('assert');
+
 // Given a year, return the century it is in. The first century spans from the
 // year 1 up to and including the year 100, the second - from the year 101 up to
 // and including the year 200, etc.
@@ -20,4 +22,10 @@ function centuryFromYear(year) {
   return Number(century);
 }
 
-console.log(centuryFromYear(1905));
+assert.equal(centuryFromYear(1), 1);
+assert.equal(centuryFromYear(100), 1);
+assert.equal(centuryFromYear(101), 2);
+assert.equal(centuryFromYear(999), 10);
+assert.equal(centuryFromYear(1900), 19);
+assert.equal(centuryFromYear(1901), 20);
+console.log('All tests passed!');

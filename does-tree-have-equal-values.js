@@ -38,3 +38,4 @@ assert.deepEqual(isEqual({ a: 1, b: 1, c: { d: { e: 1 } } }), true);
 assert.deepEqual(isEqual({ a: 1, b: 1, c: { d: { e: 1, f: 2 } } }), false);
 assert.deepEqual(isEqual(sampleTree), false);
 assert.deepEqual(isEqual({ a: 1, b: 2 }), false);
+console.log('All tests passed!');
