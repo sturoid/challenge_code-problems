@@ -1,2 +1,3 @@
-# Challenges
- Code challenges from interviews and like such as.
+# Code Playground
+
+Code samples and challenges.
