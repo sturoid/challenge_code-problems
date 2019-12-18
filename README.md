@@ -1,3 +1,3 @@
-# Code Playground
+# Whiteboard challenges
 
 Code samples and challenges.
